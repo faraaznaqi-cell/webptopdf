@@ -3,9 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <<title>Bulk Free WebP to PDF Converter - Online & Offline, Convert 100 Files at Once | webptopdf.com</title>
+    <title>Bulk Free WebP to PDF Converter - Online & Offline, Convert 100 Files at Once | webptopdf.com</title>
     <meta name="description" content="Convert WebP to PDF for free with our bulk online/offline tool. Batch convert up to 100 files at once and easily merge or split PDFs. No hassle, just fast conversion! | webptopdf.com">
     <link rel="canonical" href="https://www.webptopdf.com/webp-to-pdf.html" />
+    
+    <!-- Open Graph / Facebook Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.webptopdf.com/webp-to-pdf.html">
+    <meta property="og:title" content="Bulk Free WebP to PDF Converter - Convert 100 Files at Once">
+    <meta property="og:description" content="Convert WebP to PDF for free with our bulk online/offline tool. Batch convert up to 100 files at once. No file uploads, complete privacy.">
+    <meta property="og:image" content="https://www.webptopdf.com/og-image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://www.webptopdf.com/webp-to-pdf.html">
+    <meta name="twitter:title" content="Bulk Free WebP to PDF Converter - Convert 100 Files at Once">
+    <meta name="twitter:description" content="Convert WebP to PDF for free with our bulk online/offline tool. Batch convert up to 100 files at once. No file uploads, complete privacy.">
+    <meta name="twitter:image" content="https://www.webptopdf.com/twitter-card.jpg">
     
     <!-- Schema Markup -->
     <script type="application/ld+json">
@@ -1164,6 +1180,68 @@
             margin-bottom: 10px;
         }
 
+        /* NEW: Related Tools Section Styling */
+        .related-tools-section {
+            background-color: white;
+            border-radius: var(--border-radius);
+            padding: 25px;
+            margin-bottom: 25px;
+            box-shadow: var(--box-shadow);
+        }
+        
+        .related-tools-section h2 {
+            color: var(--primary-color);
+            margin-bottom: 18px;
+            font-size: 1.6rem;
+            padding: 0 10px;
+            text-align: center;
+        }
+        
+        .related-tools-section p {
+            text-align: center;
+            margin-bottom: 25px;
+            line-height: 1.6;
+            font-size: 0.95rem;
+            padding: 0 10px;
+            color: var(--gray-color);
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .related-tools-links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .related-tools-links a {
+            display: inline-flex;
+            align-items: center;
+            padding: 12px 20px;
+            background-color: #f8f9fa;
+            color: var(--primary-color);
+            text-decoration: none;
+            border-radius: var(--border-radius);
+            border: 2px solid #e9ecef;
+            transition: var(--transition);
+            font-weight: 500;
+            font-size: 0.95rem;
+            text-align: center;
+            min-width: 180px;
+            justify-content: center;
+        }
+        
+        .related-tools-links a:hover {
+            background-color: var(--primary-color);
+            color: white;
+            border-color: var(--primary-color);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(67, 97, 238, 0.2);
+        }
+
         /* Footer - Horizontal Layout */
         footer {
             background-color: #2b2b2b;
@@ -1372,6 +1450,17 @@
                 max-width: 280px;
             }
             
+            /* NEW: Related Tools Links Mobile */
+            .related-tools-links {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .related-tools-links a {
+                width: 100%;
+                max-width: 280px;
+            }
+            
             /* Mobile Footer */
             .footer-content {
                 flex-direction: column;
@@ -1496,9 +1585,9 @@
 
                 <!-- Desktop Navigation -->
                 <div class="nav-links">
-                    <a href="webp-to-pdf.html">Home</a>
+                    <a href="index.html">Home</a>
                     <div class="dropdown">
-                        <a href="converters.html">Converters List <i class="fas fa-chevron-down"></i></a>
+                        <a href="index.html">Converters List <i class="fas fa-chevron-down"></i></a>
                         <div class="dropdown-content">
                             <!-- BMP Converters (Ready) -->
                             <div class="category-section">
@@ -1554,7 +1643,7 @@
                             </div>
                             
                             <div class="dropdown-divider"></div>
-                            <a href="converters.html"><strong>View All Converters →</strong></a>
+                            <a href="index.html"><strong>All Converters List →</strong></a>
                         </div>
                     </div>
                     <a href="about.html">About</a>
@@ -1573,7 +1662,7 @@
 
                 <!-- Mobile Dropdown Menu -->
                 <div class="mobile-dropdown" id="mobileDropdown">
-                    <a href="webp-to-pdf.html">Home</a>
+                    <a href="index.html">Home</a>
                     
                     <!-- Mobile Search -->
                     <div class="mobile-search">
@@ -1632,7 +1721,7 @@
                         <a href="svg-to-jpg.html">SVG to JPG</a>
                     </div>
                     
-                    <a href="converters.html"><strong>View All Converters →</strong></a>
+                    <a href="index.html"><strong>All Converters List →</strong></a>
                     <a href="about.html">About</a>
                     <a href="contact.html">Contact</a>
                 </div>
@@ -1831,7 +1920,7 @@
         </section>
 
         <section class="content-section">
-            <h2>Why Choose WebPTOPDF.com Over Other Converters?</h2>
+            <h2>Why Choose Webptopdf.com Over Other Converters?</h2>
             <p>At webptopdf.com, we're committed to providing the best user experience. Here's why our WebP to PDF converter stands out:</p>
             <ul>
                 <li><strong>Fast and Free:</strong> No hidden charges or sign-up requirements. Convert WebP to PDF in seconds at no cost.</li>
@@ -1854,7 +1943,7 @@
         </section>
 
         <section class="content-section">
-            <h2>People Go Through Pain (PAS) – How Our Tool Solves Your Problems</h2>
+            <h2>People Go Through Pain  – How Our Tool Solves Your Problems</h2>
             <p>We understand the frustration of dealing with multiple images scattered across your computer. It can be time-consuming and chaotic to manage, especially when you need to organize them into a professional, easy-to-share format.</p>
             <p>With webptopdf.com, you don't have to worry about those problems anymore. Our <strong>WebP to PDF converter free</strong> tool helps you:</p>
             <ul>
@@ -1862,7 +1951,7 @@
                 <li>Merge multiple PDFs into one organized file, removing the need to work with several individual image files.</li>
                 <li>Split PDFs if you want to break up a large document into smaller, more manageable files.</li>
             </ul>
-            <p>Whether you're dealing with a small project or large volumes of images, we've got you covered. You can finally say goodbye to the hassle of organizing images manually. Our <strong>WebP to PDF converter online</strong> solution ensures you can access your files anytime, anywhere.</p>
+            <p>Whether you're dealing with a small project or large volumes of images, we've got you covered. You can finally say goodbye to the hassle of organizing images manually. Our <strong>WebP to PDF converter online</strong> solution ensures that you can access and use our converter anytime, anywhere.</p>
         </section>
 
         <section class="content-section">
@@ -1929,7 +2018,8 @@
                 <div class="faq-answer">No. All processing happens inside your browser for complete privacy.</div>
             </div>
         </section>
-
+		
+        <!-- FIXED: Separate Section 1 - Start Converting Today -->
         <section class="content-section">
             <h2>Start Converting WebP to PDF Today!</h2>
             <p>Ready to convert your WebP to PDF? It's easy, fast, and free! Simply visit webptopdf.com to start your conversion now. Plus, don't forget to check out our other tools, including <a href="png-to-pdf.html" style="color: var(--primary-color); text-decoration: none; font-weight: 500; border-bottom: 2px solid var(--primary-color); transition: var(--transition);">PNG to PDF</a> and <a href="jpg-to-pdf.html" style="color: var(--primary-color); text-decoration: none; font-weight: 500; border-bottom: 2px solid var(--primary-color); transition: var(--transition);">JPG to PDF</a>—all designed to help you manage your images and documents with ease.</p>
@@ -1942,6 +2032,21 @@
                 </button>
             </div>
         </section>
+
+        <!-- NEW: Separate Section 2 - More WebP to PDF Resources -->
+        <section class="related-tools-section">
+            <h2>More WebP to PDF Resources</h2>
+            <p>Explore helpful guides and tools related to WebP to PDF conversion. Use the main converter or read step-by-step tutorials to better understand the process.</p>
+            
+            <div class="related-tools-links">
+                <a href="webp-to-pdf.html">WebP to PDF Converter</a>
+                <a href="webp-to-pdf-guide.html">How to Convert WebP to PDF (Guide)</a>
+                <a href="webp-to-pdf-merge.html">How to Merge WebP Files into One PDF</a>
+                <a href="webp-to-pdf-online.html">WebP to PDF Online Methods</a>
+                <a href="converters.html">All Converters List</a>
+            </div>
+        </section>
+		
     </main>
 
     <footer>
@@ -1954,12 +2059,25 @@
                 <div class="footer-section">
                     <h3>Quick Links</h3>
                     <ul class="footer-links">
-                       <li><a href="webp-to-pdf.html">Home</a></li>
-                        <li><a href="webp-to-pdf-guide.html">WebP to PDF Guide</a></li>
-						 <li><a href="webp-to-pdf-online.html">WebP to PDF Online</a></li>
-						 <li><a href="webp-to-pdf-merge.html">WebP to PDF Merge</a></li>
-                        <li><a href="converters.html">All Converters List</a></li>
-                        <li><a href="about.html">About Us</a></li>
+					  <li><a href="index.html">Home - All Converters List</a></li>                                            
+<a href="bmp-to-jpg.html">BMP to JPG</a>
+<a href="bmp-to-pdf.html">BMP to PDF</a>
+<a href="bmp-to-png.html">BMP to PNG</a>
+<a href="bmp-to-svg.html">BMP to SVG</a>
+<a href="gif-to-pdf.html">GIF to PDF</a>
+<a href="jpg-to-bmp.html">JPG to BMP</a>
+<a href="jpg-to-pdf.html">JPG to PDF</a>
+<a href="pdf-to-jpg.html">PDF to JPG</a>
+<a href="png-to-gif.html">PNG to GIF</a>
+<a href="png-to-jpg.html">PNG to JPG</a>
+<a href="png-to-pdf.html">PNG to PDF</a>
+<a href="pdf-to-png.html">PDF to PNG</a>
+<a href="pdf-to-webp.html">PDF to WebP</a>
+<a href="pdf-to-gif.html">PDF to GIF</a>
+<a href="webp-to-pdf.html">WEBP to PDF</a>
+<a href="svg-to-png.html">SVG to PNG</a>
+<a href="svg-to-jpg.html">SVG to JPG</a>             
+
                     </ul>
                 </div>
                 <div class="footer-section">
@@ -1967,6 +2085,7 @@
                     <ul class="footer-links">
                         <li><a href="privacy.html">Privacy Policy</a></li>
                         <li><a href="terms.html">Terms of Service</a></li>
+						<li><a href="about.html">About Us</a></li>
                         <li><a href="contact.html">Contact Us</a></li>
                     </ul>
                 </div>
