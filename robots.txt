@@ -1,29 +1,6 @@
 User-agent: *
 Allow: /
+Disallow: /admin/
+Disallow: /cgi-bin/
 
-# ❌ Duplicate homepage versions block
-Disallow: /index
-Disallow: /index.html
-Disallow: /index.php
-
-# ❌ Technical folders (not for search engines)
-Disallow: /Content
-Disallow: /Content-and-Keywords
-Disallow: /Content-Writing-Process
-Disallow: /Conversion
-Disallow: /Final-Converter
-
-# ❌ Backup / guide / raw folders
-Disallow: /backup/
-Disallow: /temp/
-Disallow: /test/
-Disallow: /draft/
-
-# ❌ LLMS file 
-Disallow: /llms.txt
-
-# ❌ Sitemap should not index itself
-Disallow: /sitemap
-
-# Sitemap location
 Sitemap: https://webptopdf.com/sitemap.xml
