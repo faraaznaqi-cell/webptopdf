@@ -2,38 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url><loc>https://webptopdf.com/</loc></url>
-<url><loc>https://webptopdf.com/index.html</loc></url>
-<url><loc>https://webptopdf.com/about.html</loc></url>
-<url><loc>https://webptopdf.com/contact.html</loc></url>
-<url><loc>https://webptopdf.com/privacy.html</loc></url>
-<url><loc>https://webptopdf.com/terms.html</loc></url>
 
-<url><loc>https://webptopdf.com/bmp-to-gif.html</loc></url>
-<url><loc>https://webptopdf.com/bmp-to-jpg.html</loc></url>
-<url><loc>https://webptopdf.com/bmp-to-png.html</loc></url>
-<url><loc>https://webptopdf.com/bmp-to-pdf.html</loc></url>
-<url><loc>https://webptopdf.com/bmp-to-svg.html</loc></url>
+<url><loc>https://webptopdf.com/about/</loc></url>
+<url><loc>https://webptopdf.com/contact/</loc></url>
+<url><loc>https://webptopdf.com/privacy/</loc></url>
+<url><loc>https://webptopdf.com/terms/</loc></url>
 
-<url><loc>https://webptopdf.com/change-svg-to-png.html</loc></url>
-<url><loc>https://webptopdf.com/jpg-to-bmp.html</loc></url>
-<url><loc>https://webptopdf.com/jpg-to-pdf.html</loc></url>
-<url><loc>https://webptopdf.com/jpg-to-png.html</loc></url>
+<url><loc>https://webptopdf.com/bmp-to-gif/</loc></url>
+<url><loc>https://webptopdf.com/bmp-to-jpg/</loc></url>
+<url><loc>https://webptopdf.com/bmp-to-png/</loc></url>
+<url><loc>https://webptopdf.com/bmp-to-pdf/</loc></url>
+<url><loc>https://webptopdf.com/bmp-to-svg/</loc></url>
 
-<url><loc>https://webptopdf.com/pdf-to-gif.html</loc></url>
-<url><loc>https://webptopdf.com/pdf-to-jpg.html</loc></url>
-<url><loc>https://webptopdf.com/pdf-to-png.html</loc></url>
-<url><loc>https://webptopdf.com/pdf-to-webp.html</loc></url>
+<url><loc>https://webptopdf.com/gif-to-pdf/</loc></url>
 
-<url><loc>https://webptopdf.com/png-to-gif.html</loc></url>
-<url><loc>https://webptopdf.com/png-to-jpg.html</loc></url>
-<url><loc>https://webptopdf.com/png-to-pdf.html</loc></url>
+<url><loc>https://webptopdf.com/jpg-to-bmp/</loc></url>
+<url><loc>https://webptopdf.com/jpg-to-pdf/</loc></url>
 
-<url><loc>https://webptopdf.com/svg-to-jpg.html</loc></url>
-<url><loc>https://webptopdf.com/svg-to-png.html</loc></url>
+<url><loc>https://webptopdf.com/pdf-to-gif/</loc></url>
+<url><loc>https://webptopdf.com/pdf-to-jpg/</loc></url>
+<url><loc>https://webptopdf.com/pdf-to-png/</loc></url>
+<url><loc>https://webptopdf.com/pdf-to-webp/</loc></url>
 
-<url><loc>https://webptopdf.com/webp-to-pdf.html</loc></url>
-<url><loc>https://webptopdf.com/webp-to-pdf-guide.html</loc></url>
-<url><loc>https://webptopdf.com/webp-to-pdf-merge.html</loc></url>
-<url><loc>https://webptopdf.com/webp-to-pdf-online.html</loc></url>
+<url><loc>https://webptopdf.com/png-to-gif/</loc></url>
+<url><loc>https://webptopdf.com/png-to-jpg/</loc></url>
+<url><loc>https://webptopdf.com/png-to-pdf/</loc></url>
+
+<url><loc>https://webptopdf.com/svg-to-jpg/</loc></url>
+<url><loc>https://webptopdf.com/svg-to-png/</loc></url>
+<url><loc>https://webptopdf.com/change-svg-to-png/</loc></url>
+<url><loc>https://webptopdf.com/svg-to-png-converter-guide/</loc></url>
+
+<url><loc>https://webptopdf.com/webp-to-pdf/</loc></url>
+<url><loc>https://webptopdf.com/webp-to-pdf-guide/</loc></url>
+<url><loc>https://webptopdf.com/webp-to-pdf-merge/</loc></url>
+<url><loc>https://webptopdf.com/webp-to-pdf-online/</loc></url>
 
 </urlset>
