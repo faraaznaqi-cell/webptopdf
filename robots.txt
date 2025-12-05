@@ -2,5 +2,7 @@ User-agent: *
 Allow: /
 Disallow: /admin/
 Disallow: /cgi-bin/
+Disallow: /cdn-cgi/l/email-protection
+Disallow: /llms.txt
 
 Sitemap: https://webptopdf.com/sitemap.xml
