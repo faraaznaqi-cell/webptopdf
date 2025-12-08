@@ -1,6 +1,7 @@
 User-agent: *
 Allow: /
 Disallow: /cdn-cgi/l/email-protection
-Disallow: /*.html
+ Disallow: /*.html
 
 Sitemap: https://webptopdf.com/sitemap.xml
+
